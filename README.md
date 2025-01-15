@@ -27,7 +27,10 @@ cargo add openid4vp
 Ensure the `/tests/presentation-exchange` submodule is initialized, run the following in the root of the project:
 
 ```shell
-git submodule init --recursive
+## git submodule init --recursive
+git submodule update --recursive
+git submodule update --init --recursive
+
 ```
 
 
